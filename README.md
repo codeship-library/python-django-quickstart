@@ -1,5 +1,5 @@
 # Python/Django Quickstart with Codeship Pro
-TODO -- build status
+[ ![Codeship Status for whiteotter/python-django-quickstart](https://app.codeship.com/projects/bcb61790-b925-0135-c668-5e6c0be4bac8/status?branch=master)](https://app.codeship.com/projects/259132)
 
 A [Todo Backend](http://todobackend.com/) community project configured for testing on [Codeship Pro](https://codeship.com/features/pro)
 
