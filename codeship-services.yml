@@ -1,3 +1,5 @@
+# Docker Compose-like syntax, see here for details:
+# https://documentation.codeship.com/pro/builds-and-configuration/services/
 web_codeship_example_python:
   build: .
   links:
@@ -10,8 +12,3 @@ postgres:
   environment:
     POSTGRES_USER: todoapp
     POSTGRES_DB: todos
-codeship_heroku_deployment:
-  image: codeship/heroku-deployment
-  encrypted_env_file: deployment.env.encrypted
-  volumes:
-    - ./:/deploy
