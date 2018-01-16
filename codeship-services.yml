@@ -2,7 +2,7 @@
 # https://documentation.codeship.com/pro/builds-and-configuration/services/
 web_codeship_example_python:
   build: .
-  links:
+  depends_on:
     - postgres
   environment:
     DATABASE_URL: "postgres://todoapp@postgres/todos"
