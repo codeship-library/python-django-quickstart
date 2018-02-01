@@ -2,5 +2,5 @@
 # The build passes as long as every test step returns with a non-zero exit code.
 # See here for more: https://documentation.codeship.com/pro/builds-and-configuration/steps/
 - name: tests
-  service: web_codeship_example_python # our command will run on an instance of the `app` service that we've defined in the `codeship-services.yml` file
-  command: bin/ci "python manage.py test" # wrapper script to ensure that connection to Postgresql is available and migration has run
+  service: python-codeship-quickstart # our command will run on an instance of the `python-codeship-quickstart` service that we've defined in the `codeship-services.yml` file
+  command: python manage.py test
